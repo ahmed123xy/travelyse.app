@@ -64,7 +64,7 @@ Duration: 4h 45m
 
             try:
                 headers = {
-    "Authorization": f"Bearer {API_KEY}",
+    "Authorization": "Bearer sk-or-v1-518c9b30265240cbddb1bcbc7a1175b5be38ac095d08b6a573238efa9146b49cS",
     "Content-Type": "application/json"
 }
                 response = requests.post(API_URL, headers=headers, json=payload)
