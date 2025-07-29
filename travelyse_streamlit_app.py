@@ -12,7 +12,7 @@ prompt = st.text_area("Tell us about your trip:",
     height=150)
 
 # Set up OpenRouter API
-API_KEY = "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"  # Replace with your actual key
+API_KEY = "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"  # Replace with your actual key
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Model selection (optional)
