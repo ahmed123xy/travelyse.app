@@ -63,6 +63,10 @@ Duration: 4h 45m
             }
 
             try:
+                headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
                 response = requests.post(API_URL, headers=headers, json=payload)
                 if response.status_code == 200:
                     output = response.json()["choices"][0]["message"]["content"]
